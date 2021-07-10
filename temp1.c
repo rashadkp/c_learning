@@ -30,14 +30,14 @@ main (void)
 
 
   char **b;
-  b = malloc (sizeof (char *) * 1000);
+  b = malloc (sizeof (char *) * n);
   int i = 0;
 
 
   for (int i = 0; i < n; i++)
     {
 
-      b[i] = malloc (sizeof (char) * 100);
+      b[i] = malloc (sizeof (char) * 50);
       scanf ("%s", b[i]);
 
 
